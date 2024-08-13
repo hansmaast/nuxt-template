@@ -20,12 +20,26 @@ Lint commit messages. Configured to follow the [Conventional Commits](https://ww
 ---
 
 ## How to use it❓
-1. Clone the repository
-2. Run `bun install`
-3. Run `bun run dev`
-4. Make the changes you need
+1. Clone the repository using the [**GitHub CLI**](https://cli.github.com/)
+    ```
+    gh repo clone hansmaast/nuxt-template
+    ```
+    or using `git`
+    ```
+    git clone https://github.com/hansmaast/nuxt-template.git
+    ```
+
+2. Install the dependencies
+    ```
+    bun install
+    ```
+
+3. Start the development server
+    ```
+    bun run dev
+    ```
 
 > ⛳ If you don't have `bun` installed, head over to their [**installation guide**](https://bun.sh/docs/installation).
 >
-> 🧶 You can also use other package managers like `npm` or `yarn`.
+> 🧶 You can also use package managers like `npm`, `pnpm` or `yarn`.
  
