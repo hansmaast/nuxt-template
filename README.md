@@ -35,7 +35,7 @@ Lint commit messages. Configured to follow the [Conventional Commits](https://ww
     bun run dev
     ```
 
-> [!INFO]
+> [!NOTE]
 > ⛳ If you don't have `bun` installed, head over to their [**installation guide**](https://bun.sh/docs/installation).
 >
 > 🧶 You can also use package managers like `npm`, `pnpm` or `yarn`.
