@@ -16,22 +16,22 @@ Hooks for linting commit messages and code pre-commit.
 Lint commit messages. Configured to follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 ## How to use it❓
-1. Clone the repository using the [**GitHub CLI**](https://cli.github.com/)
-    ```
-    gh repo clone hansmaast/nuxt-template
-    ```
-    or using `git`
-    ```
-    git clone https://github.com/hansmaast/nuxt-template.git
-    ```
+1. Create a new repo from the template using the [**GitHub CLI**](https://cli.github.com/)
+    
+   ```zsh
+   # change the --public flag to --private if you want a private repo
+   gh repo create <new-repo-name> --public --template="hansmaast/nuxt-template"
+   ```
 
 2. Install the dependencies
-    ```
+
+    ```zsh
     bun install
     ```
 
 3. Start the development server
-    ```
+
+    ```zsh
     bun run dev
     ```
 
