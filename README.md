@@ -23,6 +23,20 @@ Lint commit messages. Configured to follow the [Conventional Commits](https://ww
    gh repo create <new-repo-name> --public --template="hansmaast/nuxt-template"
    ```
 
+   or using `git`
+
+   ```zsh
+   # Clone the repository
+   git clone https://github.com/hansmaast/nuxt-template.git <new-project-directory>
+   
+   # Remove the existing .git directory
+   cd <new-project-directory>
+   rm -rf .git
+   
+   # Initialize a new Git repository
+   git init
+   ```
+
 2. Install the dependencies
 
     ```zsh
